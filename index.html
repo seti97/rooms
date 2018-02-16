@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=yes,
+		initial-scale=1.0" />
+
+	<title>Relaxing Places</title>
+
+	<style>
+	@import 'page.css';
+	</style>
+
+	<script>
+	// Redirect console if running from Evothings Workbench.
+	if (window.hyper) { console.log = hyper.log }
+	</script>
+</head>
+
+<body>
+
+	<div class="my-page" id="page-default">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/keaLogo.jpg" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+		<h1>Welcome to KEA</h1>
+		</div>
+	</div>
+
+	<div class="my-page" id="canteenDiv">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/canteenBanner.jpeg" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1><b>Canteen</b></h1>
+			<h3>Canteen menu:</h3>
+			<ul>
+				<li>Sandwich</li>
+				<li>Coffee</li>	
+		</div>
+	</div>
+
+	<div class="my-page" id="libraryDiv">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/library.jpg" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1>Library</h1>
+		</div>
+	</div>
+
+	<div class="my-page" id="classroomDiv">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/photo-default.jpg" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1>Classroom</h1>
+			<a href="schedule/schedule.html"><h2>Schedule</h2>
+		</div>
+	</div>
+
+	<script src="lib/jquery.js"></script>
+	<script src="cordova.js"></script>
+	<script src="app.js"></script>
+
+</body>
+</html>
